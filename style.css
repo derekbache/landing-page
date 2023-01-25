@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 32px;
+}
+
+.lefthero {
+    background-color: #1F2937;
+}
+
+.righthero {
+    background-color: #E5E7EB;
+}
