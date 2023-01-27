@@ -11,7 +11,7 @@ ul {
 }
 
 .footer {
-    padding: 16px;
+    padding: 32px;
 }
 
 .header, .footer {
@@ -26,7 +26,6 @@ ul {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-
 }
 
 .hero {
@@ -53,7 +52,7 @@ ul {
 
 .heromaintext {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800; /* <!-- Extra Bold --> */
     color: #F9FAF8;
 }
 
@@ -69,12 +68,89 @@ button, .calltoaction {
 
 button {
     border-radius: 8px;
-    padding: 4px 16px;
+    padding: 6px 26px;
     font-weight: bold;
     border: 2px solid;
     border-color: #F9FAF8;
+    margin-top: 8px;
 }
 
 .herobutton {
     border: 0;
+}
+
+.cardSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 86px 128px;
+    gap: 32px;
+}
+
+.cardHeader {
+    font-size: 36px;
+    font-weight: 800; /* <!-- Extra Bold --> */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 86px 180px;
+    font-weight: lighter;
+}
+
+.signature {
+    font-weight: bold;
+    text-align: right;
+}
+
+.signup {
+    background-color: #3882F6;
+    margin: 64px 128px;
+    padding: 48px 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.calltoaction > div {
+    color: #F9FAF8;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 16px;
+    border-color: #3882F6;
+    height: 140px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 200px;
+    width: 140px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 14px;
+    color:  hsl(210, 2%, 47%);
+}
+
+.calltoactiontext {
+    font-weight: 900;
 }
